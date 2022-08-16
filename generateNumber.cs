@@ -21,7 +21,7 @@ namespace calculator.exe
         private void bGenerate_Click(object sender, EventArgs e)
         {
 
-            txÜ.Text = Convert.ToString(rastgele.Next(0, 101));
+            txÜ.Text = Convert.ToString(rastgele.Next(0, 105));
 
         }
     }
