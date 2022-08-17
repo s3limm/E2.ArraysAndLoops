@@ -74,120 +74,120 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BıletAlmaOtomasyonu.cs">
+    <Compile Include="Forms\BuyingTicket\BıletAlmaOtomasyonu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BıletAlmaOtomasyonu.Designer.cs">
+    <Compile Include="Forms\BuyingTicket\BıletAlmaOtomasyonu.Designer.cs">
       <DependentUpon>BıletAlmaOtomasyonu.cs</DependentUpon>
     </Compile>
-    <Compile Include="diziler.cs">
+    <Compile Include="Forms\Arrays\diziler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="diziler.Designer.cs">
+    <Compile Include="Forms\Arrays\diziler.Designer.cs">
       <DependentUpon>diziler.cs</DependentUpon>
     </Compile>
-    <Compile Include="calculator1.cs">
+    <Compile Include="Forms\Calculator1\calculator1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="calculator1.Designer.cs">
+    <Compile Include="Forms\Calculator1\calculator1.Designer.cs">
       <DependentUpon>calculator1.cs</DependentUpon>
     </Compile>
-    <Compile Include="DoWhile.cs">
+    <Compile Include="Forms\L.Do_While\DoWhile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DoWhile.Designer.cs">
+    <Compile Include="Forms\L.Do_While\DoWhile.Designer.cs">
       <DependentUpon>DoWhile.cs</DependentUpon>
     </Compile>
-    <Compile Include="ForDongu.cs">
+    <Compile Include="Forms\L.For\ForDongu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ForDongu.Designer.cs">
+    <Compile Include="Forms\L.For\ForDongu.Designer.cs">
       <DependentUpon>ForDongu.cs</DependentUpon>
     </Compile>
-    <Compile Include="ForDonguOrnek.cs">
+    <Compile Include="Forms\L.For_Example\ForDonguOrnek.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ForDonguOrnek.Designer.cs">
+    <Compile Include="Forms\L.For_Example\ForDonguOrnek.Designer.cs">
       <DependentUpon>ForDonguOrnek.cs</DependentUpon>
     </Compile>
-    <Compile Include="Foreach.cs">
+    <Compile Include="Forms\L.Foreach\Foreach.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Foreach.Designer.cs">
+    <Compile Include="Forms\L.Foreach\Foreach.Designer.cs">
       <DependentUpon>Foreach.cs</DependentUpon>
     </Compile>
-    <Compile Include="ForLoops.cs">
+    <Compile Include="Forms\L.For_V2\ForLoops.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ForLoops.Designer.cs">
+    <Compile Include="Forms\L.For_V2\ForLoops.Designer.cs">
       <DependentUpon>ForLoops.cs</DependentUpon>
     </Compile>
-    <Compile Include="generateNumber.cs">
+    <Compile Include="Forms\Generate_Number\generateNumber.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="generateNumber.Designer.cs">
+    <Compile Include="Forms\Generate_Number\generateNumber.Designer.cs">
       <DependentUpon>generateNumber.cs</DependentUpon>
     </Compile>
-    <Compile Include="GuessTheNumbers.cs">
+    <Compile Include="Forms\Guess_Number\GuessTheNumbers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GuessTheNumbers.Designer.cs">
+    <Compile Include="Forms\Guess_Number\GuessTheNumbers.Designer.cs">
       <DependentUpon>GuessTheNumbers.cs</DependentUpon>
     </Compile>
-    <Compile Include="Loops.cs">
+    <Compile Include="Forms\Loops\Loops.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Loops.Designer.cs">
+    <Compile Include="Forms\Loops\Loops.Designer.cs">
       <DependentUpon>Loops.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="ProjectÖdev.cs">
+    <Compile Include="Forms\Program.cs" />
+    <Compile Include="Forms\L.For_Example_V2\ProjectÖdev.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProjectÖdev.Designer.cs">
+    <Compile Include="Forms\L.For_Example_V2\ProjectÖdev.Designer.cs">
       <DependentUpon>ProjectÖdev.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="YemekTarifi.cs">
+    <Compile Include="Forms\Food_Reciping\YemekTarifi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="YemekTarifi.Designer.cs">
+    <Compile Include="Forms\Food_Reciping\YemekTarifi.Designer.cs">
       <DependentUpon>YemekTarifi.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BıletAlmaOtomasyonu.resx">
+    <EmbeddedResource Include="Forms\BuyingTicket\BıletAlmaOtomasyonu.resx">
       <DependentUpon>BıletAlmaOtomasyonu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="diziler.resx">
+    <EmbeddedResource Include="Forms\Arrays\diziler.resx">
       <DependentUpon>diziler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="calculator1.resx">
+    <EmbeddedResource Include="Forms\Calculator1\calculator1.resx">
       <DependentUpon>calculator1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DoWhile.resx">
+    <EmbeddedResource Include="Forms\L.Do_While\DoWhile.resx">
       <DependentUpon>DoWhile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ForDongu.resx">
+    <EmbeddedResource Include="Forms\L.For\ForDongu.resx">
       <DependentUpon>ForDongu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ForDonguOrnek.resx">
+    <EmbeddedResource Include="Forms\L.For_Example\ForDonguOrnek.resx">
       <DependentUpon>ForDonguOrnek.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Foreach.resx">
+    <EmbeddedResource Include="Forms\L.Foreach\Foreach.resx">
       <DependentUpon>Foreach.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ForLoops.resx">
+    <EmbeddedResource Include="Forms\L.For_V2\ForLoops.resx">
       <DependentUpon>ForLoops.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="generateNumber.resx">
+    <EmbeddedResource Include="Forms\Generate_Number\generateNumber.resx">
       <DependentUpon>generateNumber.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GuessTheNumbers.resx">
+    <EmbeddedResource Include="Forms\Guess_Number\GuessTheNumbers.resx">
       <DependentUpon>GuessTheNumbers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Loops.resx">
+    <EmbeddedResource Include="Forms\Loops\Loops.resx">
       <DependentUpon>Loops.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProjectÖdev.resx">
+    <EmbeddedResource Include="Forms\L.For_Example_V2\ProjectÖdev.resx">
       <DependentUpon>ProjectÖdev.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -199,10 +199,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="YemekTarifi.resx">
+    <EmbeddedResource Include="Forms\Food_Reciping\YemekTarifi.resx">
       <DependentUpon>YemekTarifi.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="calculator.exe_TemporaryKey.pfx" />
+    <None Include="Forms\calculator.exe_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -214,7 +214,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="Forms\App.config" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

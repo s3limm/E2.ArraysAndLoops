@@ -19,6 +19,8 @@ namespace calculator.exe
 
         private void ProjectÖdev_Load(object sender, EventArgs e)
         {
+            MessageBox.Show("Hello World");
+
             for (int i = 1; i < 100; i++)
             {
                 lstFrom.Items.Add(i);
